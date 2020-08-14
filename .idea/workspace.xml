@@ -16,6 +16,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1fyyEFYdJETq27nYXREyZtiz9Ph" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -28,13 +29,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayTransformation">
+  <component name="RunManager" selected="Application.LinkedListTraversal">
     <configuration name="ArrayTransformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.arrays.ArrayTransformation" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTraversal$Node" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.linkedlist.LinkedListTraversal$Node" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.linkedlist.LinkedListTraversal" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,9 +96,13 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.OneDArrayMain" />
       <item itemvalue="Application.ArrayTransformation" />
+      <item itemvalue="Application.LinkedListTraversal$Node" />
+      <item itemvalue="Application.LinkedListTraversal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListTraversal" />
+        <item itemvalue="Application.LinkedListTraversal$Node" />
         <item itemvalue="Application.ArrayTransformation" />
         <item itemvalue="Application.OneDArrayMain" />
       </list>
