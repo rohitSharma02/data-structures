@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cd8d5a1-60cc-471a-a4dd-2faf71b117fb" name="Default Changelist" comment="" />
+    <list default="true" id="5cd8d5a1-60cc-471a-a4dd-2faf71b117fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/company/linkedlist/LinkedListTraversal$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/company/linkedlist/LinkedListTraversal$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/company/linkedlist/LinkedListTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/company/linkedlist/LinkedListTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/linkedlist/LinkedListTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/linkedlist/LinkedListTraversal.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +21,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fyyEFYdJETq27nYXREyZtiz9Ph" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -29,13 +42,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListTraversal">
+  <component name="RunManager" selected="Application.LinkedListInsertion">
     <configuration name="ArrayTransformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.arrays.ArrayTransformation" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListInsertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.linkedlist.LinkedListInsertion" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,16 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="DataStructures" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OneDArrayMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.arrays.OneDArrayMain" />
       <module name="DataStructures" />
@@ -93,14 +109,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.OneDArrayMain" />
       <item itemvalue="Application.ArrayTransformation" />
       <item itemvalue="Application.LinkedListTraversal$Node" />
       <item itemvalue="Application.LinkedListTraversal" />
+      <item itemvalue="Application.LinkedListInsertion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListInsertion" />
         <item itemvalue="Application.LinkedListTraversal" />
         <item itemvalue="Application.LinkedListTraversal$Node" />
         <item itemvalue="Application.ArrayTransformation" />
@@ -120,5 +137,18 @@
       <updated>1597204514158</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

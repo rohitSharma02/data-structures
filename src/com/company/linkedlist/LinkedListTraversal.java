@@ -6,13 +6,15 @@ public class LinkedListTraversal {
     static class Node{
         int data;
         Node next;
-        public Node(int d) {
+        private Node(int d) {
             data = d;
             next = null;
         }
     }
 
-    public void printList() {
+
+    // Traversal function
+    private void printList() {
         Node n = head;
         while (n != null) {
             System.out.println(n.data + " ");
