@@ -1,5 +1,8 @@
 package com.company.linkedlist;
 
+// Can use Linkedlist add method also
+// Example list.add()
+
 public class LinkedListInsertion {
     private Node head;
 
