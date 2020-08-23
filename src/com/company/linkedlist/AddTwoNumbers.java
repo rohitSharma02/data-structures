@@ -29,7 +29,6 @@ public class AddTwoNumbers {
         }
     }
    // Iterative method - Taking three pointers curr, next, prev
-<<<<<<< HEAD
    Node reverseLinkedList(Node node){
         Node next, prev = null;
         Node curr = node;
@@ -44,22 +43,6 @@ public class AddTwoNumbers {
         node = prev;
         return node;
    }
-=======
-//   Node reverseLinkedList(Node node){
-//        Node next, prev = null;
-//        Node curr = node;
-//        while(curr != null){
-//            next = curr.next;
-//            // Why curr.next = prev, for reversing the pointer ?
-//            curr.next = prev;
-//            prev = curr;
-//            curr = next;
-//
-//        }
-//        node = prev;
-//        return node;
-//   }
->>>>>>> dfe8e9b35bdb9b0c4a21adc2f5896716d70cdd3f
 
 
     // Driver class
@@ -75,7 +58,6 @@ public class AddTwoNumbers {
         second.next = third;
 
 //        list1.printList(head);
-<<<<<<< HEAD
         //List 2 entries
         list2.head = new Node(5);
         Node sSecond = new Node(6);
@@ -89,21 +71,6 @@ public class AddTwoNumbers {
         list1.printList(head);
         head = list2.reverseLinkedList(head);
         list2.printList(head);
-=======
-//        //List 2 entries
-//        list2.head = new Node(5);
-//        Node sSecond = new Node(6);
-//        Node tThird = new Node(4);
-////
-//        list2.head.next = sSecond;
-//        sSecond.next = tThird;
-//        list2.printList(head);
-//
-//        head  = list1.reverseLinkedList(head);
-        list1.printList(head);
-//        head = list2.reverseLinkedList(head);
-//        list2.printList(head);
->>>>>>> dfe8e9b35bdb9b0c4a21adc2f5896716d70cdd3f
 
 
     }
