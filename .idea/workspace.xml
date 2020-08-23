@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cd8d5a1-60cc-471a-a4dd-2faf71b117fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/string/Atoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/company/linkedlist/AddTwoNumbers$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/company/linkedlist/AddTwoNumbers$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/company/linkedlist/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/company/linkedlist/AddTwoNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/linkedlist/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/linkedlist/AddTwoNumbers.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +39,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddTwoNumbers">
+  <component name="RunManager" selected="Application.Atoi">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.linkedlist.AddTwoNumbers" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Atoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.string.Atoi" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,19 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTraversal$Node" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.linkedlist.LinkedListTraversal$Node" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LinkedListTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.linkedlist.LinkedListTraversal" />
       <module name="DataStructures" />
@@ -108,19 +106,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LinkedListTraversal$Node" />
       <item itemvalue="Application.LinkedListTraversal" />
       <item itemvalue="Application.LinkedListInsertion" />
       <item itemvalue="Application.AddTwoNumbers" />
       <item itemvalue="Application.IfElseQuestionMark" />
+      <item itemvalue="Application.Atoi" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Atoi" />
         <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.IfElseQuestionMark" />
         <item itemvalue="Application.LinkedListInsertion" />
         <item itemvalue="Application.LinkedListTraversal" />
-        <item itemvalue="Application.LinkedListTraversal$Node" />
       </list>
     </recent_temporary>
   </component>
