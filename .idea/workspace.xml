@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cd8d5a1-60cc-471a-a4dd-2faf71b117fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/betterCodingStyle/IfElseQuestionMark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/linkedlist/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/company/linkedlist/LinkedListInsertion$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/company/linkedlist/LinkedListInsertion$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/company/linkedlist/LinkedListInsertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/company/linkedlist/LinkedListInsertion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/linkedlist/LinkedListInsertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/linkedlist/LinkedListInsertion.java" afterDir="false" />
-    </list>
+    <list default="true" id="5cd8d5a1-60cc-471a-a4dd-2faf71b117fb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
