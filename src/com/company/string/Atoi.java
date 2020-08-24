@@ -28,7 +28,7 @@ package com.company.string;
 //        Explanation: The number "-91283472332" is out of the range of a 32-bit signed integer.
 //        Thefore INT_MIN (−231) is returned.
 public class Atoi {
-
+    // Getter Method or Accessor
     public static int strToInt(String str) {
         int result = 0;
         int i = 0;
@@ -58,6 +58,7 @@ public class Atoi {
         // Driver Class
         public static void main (String[]args){
             String inp = "22";
+            // Setter or Mutator
             System.out.println(strToInt(inp));
         }
     }
