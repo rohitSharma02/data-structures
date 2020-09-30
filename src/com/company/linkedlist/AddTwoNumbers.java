@@ -9,69 +9,34 @@ package com.company.linkedlist;
 
 // Needs to work on Again
 
+// (2, ptr) --> next --> (2,ptr)
+// Node --> ptr -->Node
+
 public class AddTwoNumbers {
-    static Node head;
 
-    static class Node {
-       Node next;
-       int data;
-       Node(int d){
-           data = d;
-           next = null;
-       }
-   }
-
-   void printList(Node n){
-
-        while(n != null){
-            System.out.print(n.data + " ");
-            n = n.next;
+    static Node head1 , head2;
+    static class Node{
+        int data;
+        Node next;
+        // Created data type Node
+        // next is node , data is contained in Node
+        Node(int d){
+            data = d;
+            next = null;
         }
-    }
-   // Iterative method - Taking three pointers curr, next, prev
-//   Node reverseLinkedList(Node node){
-//        Node next, prev = null;
-//        Node curr = node;
-//        while(curr != null){
-//            next = curr.next;
-//            // Why curr.next = prev, for reversing the pointer ?
-//            curr.next = prev;
-//            prev = curr;
-//            curr = next;
-//
-//        }
-//        node = prev;
-//        return node;
-//   }
+       // print Linkedlist
+       public void printList(Node head){
+            while(head != null){
+                System.out.println(head.next + " ");
+                head.next = head;
 
+            }
+       }
 
-    // Driver class
-    public static void main(String[] args){
-        AddTwoNumbers list1 = new AddTwoNumbers();
-        AddTwoNumbers list2 = new AddTwoNumbers();
-        // List 1 entries
-        list1.head = new Node(2);
-        Node second = new Node(4);
-        Node third = new Node(3);
+       static void main(String[] args){
+         AddTwoNumbers list = new AddTwoNumbers();
+             
 
-        list1.head.next =second;
-        second.next = third;
-
-//        list1.printList(head);
-//        //List 2 entries
-//        list2.head = new Node(5);
-//        Node sSecond = new Node(6);
-//        Node tThird = new Node(4);
-////
-//        list2.head.next = sSecond;
-//        sSecond.next = tThird;
-//        list2.printList(head);
-//
-//        head  = list1.reverseLinkedList(head);
-        list1.printList(head);
-//        head = list2.reverseLinkedList(head);
-//        list2.printList(head);
-
-
+        }
     }
 }
